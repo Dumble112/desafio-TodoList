@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.fundo{
+    background-image:linear-gradient(45deg,rgb(112, 236, 10), rgb(6, 233, 184));
+    font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;
+    height: 100vh;
+    color:black;
+}
+.ajustes{
+    background-color:rgb(42, 141, 180);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding:15px;
+    text-align:center;
+    
+}
+.Adicionar{
+    background: #00008b;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+    border:none;
+    margin:3px;
+    padding:8px;
+}
+.Adicionar:hover{
+    background: #444494;
+}
+.inserir{
+   width: 200px;
+   height: 30px;
+}
+ul {
+    margin-top: 16px;
+}
+li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-color:rgb(112, 236, 10);
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+:checked + label {
+    text-decoration: line-through;
+    color: rgb(236, 15, 15);
+}
+
+#criar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
